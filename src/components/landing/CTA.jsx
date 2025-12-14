@@ -21,6 +21,7 @@ export default function CTA() {
               <svg
                 role="img"
                 viewBox="0 0 24 24"
+                className="w-6! h-6! mr-2"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
               >
@@ -36,6 +37,7 @@ export default function CTA() {
             >
               <svg
                 role="img"
+                className="w-6! h-6! mr-2"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
