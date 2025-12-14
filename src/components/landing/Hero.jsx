@@ -5,9 +5,9 @@ export default function Hero() {
     <section className="wrapper py-20 lg:py-32">
       <div className="max-w-3xl mx-auto text-center space-y-8">
         <div className="space-y-6">
-          <p className="text-imvox-blue font-medium text-sm tracking-wide uppercase">
+          {/* <p className="text-imvox-blue font-medium text-sm tracking-wide uppercase">
             Azərbaycanın peşəkar şəbəkəsi
-          </p>
+          </p> */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
             Karyeranı{" "}
             <span className="text-imvox-blue">IMVOX</span>{" "}

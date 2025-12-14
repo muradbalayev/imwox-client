@@ -35,11 +35,11 @@ export default function HowItWorks() {
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <div className="text-7xl md:text-start text-center font-bold text-gray-100 mb-4">
+              <div className="text-7xl text-center font-bold text-gray-200 mb-4">
                 {step.number}
               </div>
-              <h3 className="text-xl md:text-start text-center font-semibold mb-3">{step.title}</h3>
-              <p className="text-gray-600 leading-relaxed md:text-start text-center">{step.description}</p>
+              <h3 className="text-xl text-center font-semibold mb-3">{step.title}</h3>
+              <p className="text-gray-600 leading-relaxed text-center">{step.description}</p>
               
               {index < steps.length - 1 && (
                 <div className="block md:hidden absolute top-8 left-full w-full">
